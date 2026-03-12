@@ -1,4 +1,4 @@
-# Project 7 — Institutional Data Audit & Interdepartmental Database Integration
+# Project - Institutional Data Audit & Interdepartmental Database Integration
 
 **Organization:** University of North Alabama  
 **Domain:** Data Engineering | Data Quality | ETL | Institutional Reporting  
@@ -10,7 +10,7 @@
 
 ## Business Problem
 
-The University of North Alabama operated with data quality gaps and inconsistencies across multiple departmental systems — Academic Records, Financial Aid, Admissions, HR, Library, and IT — maintained in a mix of Banner ERP, Jenzabar, legacy databases, SharePoint lists, and manual Excel files. Duplicate records, missing fields, inconsistent date formats, and out-of-range GPA values created reporting compliance issues and prevented cross-departmental data integration.
+The University of North Alabama operated with data quality gaps and inconsistencies across multiple departmental systems — Academic Records, Financial Aid, Admissions, HR, Library, and IT — maintained in a mix of legacy databases, SharePoint lists, and manual Excel files. Duplicate records, missing fields, inconsistent date formats, and out-of-range GPA values created reporting compliance issues and prevented cross-departmental data integration.
 
 ## Solution
 
@@ -19,8 +19,6 @@ Conducted an institution-wide data audit identifying inconsistencies, duplicate 
 ## Technical Architecture
 
 ```
-Banner_ERP ─┐
-Jenzabar   ─┤
 Manual Excel─┤──► ETL Pipeline ──► Standardisation Engine ──► Audit Report
 Legacy_DB  ─┤         │                    │
 SharePoint ─┘    Deduplication     Reconciliation Summary
@@ -32,7 +30,7 @@ SharePoint ─┘    Deduplication     Reconciliation Summary
 
 - Institution-wide data profiling and quality scoring per department  
 - Field-level standardisation engine covering student IDs, dates, GPA, email, and department codes  
-- Duplicate detection and flagging across 5 source systems  
+- Duplicate detection and flagging across 3 source systems  
 - Department reconciliation report with correction rate tracking  
 - UAT documentation and sign-off workflow  
 
@@ -42,7 +40,7 @@ SharePoint ─┘    Deduplication     Reconciliation Summary
 |---|---|
 | Data accuracy improvement | **50%** |
 | Departments standardised | **3+** |
-| Source systems integrated | 5 (Banner ERP, Jenzabar, Excel, Legacy DB, SharePoint) |
+| Source systems integrated | 5 (Excel, Legacy DB, SharePoint) |
 | Reporting compliance enforced | ✅ |
 
 ## Repository Contents
@@ -68,7 +66,7 @@ python python/institutional_audit.py
 
 ## Tools & Technologies
 
-Python (Pandas, NumPy) · ETL Pipelines · Advanced Excel · Banner ERP · Jenzabar · SQL
+Python (Pandas, NumPy) · ETL Pipelines · Advanced Excel · SQL
 
 ---
 *For technical discussion, connect via [LinkedIn](https://linkedin.com/in/ankitbharti2834).*
