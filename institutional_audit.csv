@@ -1,0 +1,301 @@
+record_id,department,data_type,field_name,original_value,standardized_value,issue_type,corrected,source_system
+REC-1,Financial Aid,Financial,department_code,RAW_4911,STD_6114,MISSING_VALUE,Y,Banner_ERP
+REC-2,HR,Financial,department_code,RAW_3497,STD_4911,MISSING_VALUE,N,Jenzabar
+REC-3,Admissions,Student,enrollment_date,RAW_4644,STD_7019,MISSING_VALUE,Y,SharePoint
+REC-4,IT Systems,Personnel,enrollment_date,RAW_6550,STD_3451,STALE_DATA,N,Banner_ERP
+REC-5,Financial Aid,Financial,department_code,RAW_5395,STD_5830,DUPLICATE_RECORD,Y,Manual_Excel
+REC-6,Financial Aid,Operational,gpa,RAW_5964,STD_3288,MISSING_VALUE,Y,Banner_ERP
+REC-7,Admissions,Student,student_id,RAW_3204,STD_5941,DUPLICATE_RECORD,N,SharePoint
+REC-8,HR,Operational,enrollment_date,RAW_5650,STD_7550,MISSING_VALUE,Y,SharePoint
+REC-9,IT Systems,Operational,department_code,RAW_3006,STD_1751,OUT_OF_RANGE,Y,Manual_Excel
+REC-10,IT Systems,Operational,email,RAW_6864,STD_7393,MISSING_VALUE,Y,SharePoint
+REC-11,Academic Records,Student,student_id,RAW_6683,STD_4146,DUPLICATE_RECORD,Y,Manual_Excel
+REC-12,IT Systems,Operational,student_id,RAW_3403,STD_5163,DUPLICATE_RECORD,Y,Manual_Excel
+REC-13,HR,Financial,gpa,RAW_5127,STD_8667,INCONSISTENT_FORMAT,N,Legacy_DB
+REC-14,HR,Operational,student_id,RAW_8138,STD_2519,INCONSISTENT_FORMAT,Y,SharePoint
+REC-15,Academic Records,Operational,enrollment_date,RAW_3119,STD_3238,STALE_DATA,N,Legacy_DB
+REC-16,IT Systems,Financial,department_code,RAW_2048,STD_3240,DUPLICATE_RECORD,Y,Banner_ERP
+REC-17,Admissions,Financial,enrollment_date,RAW_5519,STD_4694,OUT_OF_RANGE,Y,Banner_ERP
+REC-18,HR,Student,student_id,RAW_5937,STD_2953,DUPLICATE_RECORD,N,Legacy_DB
+REC-19,Academic Records,Student,student_id,RAW_4309,STD_3983,OUT_OF_RANGE,Y,Jenzabar
+REC-20,Admissions,Student,department_code,RAW_1155,STD_7834,INCONSISTENT_FORMAT,Y,SharePoint
+REC-21,Financial Aid,Financial,student_id,RAW_6492,STD_8246,STALE_DATA,Y,Manual_Excel
+REC-22,Financial Aid,Personnel,student_id,RAW_3027,STD_4485,INCONSISTENT_FORMAT,N,Banner_ERP
+REC-23,IT Systems,Operational,enrollment_date,RAW_3857,STD_4718,STALE_DATA,N,Jenzabar
+REC-24,Library,Operational,student_id,RAW_4105,STD_1148,INCONSISTENT_FORMAT,N,SharePoint
+REC-25,HR,Student,student_id,RAW_7371,STD_7891,STALE_DATA,N,Banner_ERP
+REC-26,Financial Aid,Personnel,email,RAW_3936,STD_7707,DUPLICATE_RECORD,Y,SharePoint
+REC-27,Admissions,Student,email,RAW_2084,STD_2602,MISSING_VALUE,Y,Legacy_DB
+REC-28,Library,Operational,email,RAW_6478,STD_3368,OUT_OF_RANGE,Y,Manual_Excel
+REC-29,Admissions,Student,enrollment_date,RAW_5467,STD_7754,OUT_OF_RANGE,N,Banner_ERP
+REC-30,Admissions,Operational,aid_amount,RAW_1406,STD_2208,OUT_OF_RANGE,N,Manual_Excel
+REC-31,IT Systems,Operational,student_id,RAW_6395,STD_8474,DUPLICATE_RECORD,N,Banner_ERP
+REC-32,Academic Records,Student,aid_amount,RAW_1496,STD_3759,DUPLICATE_RECORD,N,SharePoint
+REC-33,Admissions,Student,enrollment_date,RAW_3809,STD_7917,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-34,HR,Student,email,RAW_4689,STD_2401,INCONSISTENT_FORMAT,Y,SharePoint
+REC-35,Admissions,Student,department_code,RAW_9987,STD_9945,STALE_DATA,Y,Manual_Excel
+REC-36,Financial Aid,Student,gpa,RAW_6470,STD_8745,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-37,HR,Operational,email,RAW_7996,STD_5563,DUPLICATE_RECORD,N,Legacy_DB
+REC-38,Admissions,Operational,enrollment_date,RAW_7561,STD_3903,STALE_DATA,Y,Legacy_DB
+REC-39,Admissions,Financial,department_code,RAW_1558,STD_1370,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-40,IT Systems,Personnel,email,RAW_1671,STD_7965,STALE_DATA,N,SharePoint
+REC-41,Financial Aid,Student,aid_amount,RAW_2916,STD_6681,STALE_DATA,N,SharePoint
+REC-42,Library,Personnel,gpa,RAW_9975,STD_4034,STALE_DATA,N,Legacy_DB
+REC-43,HR,Personnel,email,RAW_1909,STD_7446,INCONSISTENT_FORMAT,N,Jenzabar
+REC-44,Library,Student,student_id,RAW_9030,STD_9154,STALE_DATA,Y,SharePoint
+REC-45,Admissions,Student,student_id,RAW_8798,STD_5282,DUPLICATE_RECORD,N,Manual_Excel
+REC-46,Admissions,Operational,enrollment_date,RAW_7245,STD_4884,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-47,Academic Records,Personnel,student_id,RAW_1706,STD_1427,DUPLICATE_RECORD,Y,Manual_Excel
+REC-48,IT Systems,Operational,aid_amount,RAW_5058,STD_8200,DUPLICATE_RECORD,N,Manual_Excel
+REC-49,Admissions,Financial,student_id,RAW_2324,STD_4988,STALE_DATA,Y,Jenzabar
+REC-50,Admissions,Personnel,aid_amount,RAW_3702,STD_7002,DUPLICATE_RECORD,N,SharePoint
+REC-51,Financial Aid,Operational,email,RAW_3169,STD_9422,MISSING_VALUE,N,Banner_ERP
+REC-52,Admissions,Personnel,enrollment_date,RAW_6784,STD_3077,STALE_DATA,Y,Legacy_DB
+REC-53,Financial Aid,Financial,gpa,RAW_2689,STD_1985,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-54,Admissions,Operational,department_code,RAW_7127,STD_9084,MISSING_VALUE,N,Banner_ERP
+REC-55,Library,Operational,department_code,RAW_7260,STD_6778,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-56,Admissions,Financial,gpa,RAW_3355,STD_2714,OUT_OF_RANGE,Y,Legacy_DB
+REC-57,Library,Student,email,RAW_2468,STD_7948,OUT_OF_RANGE,Y,SharePoint
+REC-58,IT Systems,Personnel,student_id,RAW_8512,STD_5039,INCONSISTENT_FORMAT,N,Legacy_DB
+REC-59,Financial Aid,Personnel,aid_amount,RAW_1983,STD_5466,OUT_OF_RANGE,N,Legacy_DB
+REC-60,Financial Aid,Personnel,student_id,RAW_1567,STD_3674,STALE_DATA,Y,Jenzabar
+REC-61,Library,Operational,department_code,RAW_5720,STD_3351,DUPLICATE_RECORD,N,Jenzabar
+REC-62,Financial Aid,Student,gpa,RAW_3734,STD_4817,DUPLICATE_RECORD,N,Legacy_DB
+REC-63,Admissions,Personnel,student_id,RAW_6975,STD_4341,OUT_OF_RANGE,Y,Manual_Excel
+REC-64,Admissions,Student,email,RAW_2467,STD_3639,DUPLICATE_RECORD,Y,Manual_Excel
+REC-65,Academic Records,Financial,department_code,RAW_2853,STD_3948,OUT_OF_RANGE,Y,Legacy_DB
+REC-66,Library,Financial,email,RAW_8727,STD_3409,MISSING_VALUE,N,Banner_ERP
+REC-67,Admissions,Operational,department_code,RAW_4254,STD_1179,STALE_DATA,N,Legacy_DB
+REC-68,Financial Aid,Student,enrollment_date,RAW_4599,STD_8754,MISSING_VALUE,N,Jenzabar
+REC-69,Admissions,Student,department_code,RAW_8932,STD_5689,DUPLICATE_RECORD,N,Jenzabar
+REC-70,IT Systems,Personnel,aid_amount,RAW_4076,STD_3124,DUPLICATE_RECORD,Y,Legacy_DB
+REC-71,HR,Student,gpa,RAW_6458,STD_7804,OUT_OF_RANGE,N,Legacy_DB
+REC-72,Library,Operational,enrollment_date,RAW_5526,STD_6499,INCONSISTENT_FORMAT,N,Manual_Excel
+REC-73,Admissions,Financial,email,RAW_2080,STD_9129,MISSING_VALUE,N,SharePoint
+REC-74,Admissions,Student,department_code,RAW_6639,STD_5810,MISSING_VALUE,N,Legacy_DB
+REC-75,HR,Personnel,aid_amount,RAW_2289,STD_8842,OUT_OF_RANGE,Y,Jenzabar
+REC-76,HR,Personnel,email,RAW_1813,STD_9216,STALE_DATA,Y,SharePoint
+REC-77,Financial Aid,Operational,gpa,RAW_7570,STD_3255,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-78,IT Systems,Operational,aid_amount,RAW_2047,STD_5760,STALE_DATA,Y,Manual_Excel
+REC-79,Admissions,Operational,gpa,RAW_9972,STD_1630,OUT_OF_RANGE,Y,Manual_Excel
+REC-80,Academic Records,Student,aid_amount,RAW_4203,STD_8169,DUPLICATE_RECORD,Y,Legacy_DB
+REC-81,HR,Operational,department_code,RAW_2976,STD_1658,STALE_DATA,N,Legacy_DB
+REC-82,IT Systems,Student,gpa,RAW_7209,STD_1014,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-83,IT Systems,Financial,email,RAW_3688,STD_1439,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-84,Library,Student,student_id,RAW_3101,STD_2263,DUPLICATE_RECORD,Y,SharePoint
+REC-85,Admissions,Personnel,aid_amount,RAW_9144,STD_2378,INCONSISTENT_FORMAT,N,Manual_Excel
+REC-86,Library,Student,email,RAW_9495,STD_3605,OUT_OF_RANGE,Y,Legacy_DB
+REC-87,Academic Records,Personnel,aid_amount,RAW_8945,STD_4676,OUT_OF_RANGE,Y,SharePoint
+REC-88,Library,Financial,aid_amount,RAW_9396,STD_8105,MISSING_VALUE,N,Legacy_DB
+REC-89,Admissions,Personnel,email,RAW_8408,STD_3959,STALE_DATA,Y,SharePoint
+REC-90,Admissions,Personnel,gpa,RAW_4172,STD_4658,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-91,Library,Operational,enrollment_date,RAW_3403,STD_9618,OUT_OF_RANGE,Y,Manual_Excel
+REC-92,Academic Records,Student,aid_amount,RAW_8179,STD_7011,DUPLICATE_RECORD,Y,Legacy_DB
+REC-93,IT Systems,Student,gpa,RAW_3148,STD_1368,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-94,IT Systems,Student,gpa,RAW_8116,STD_6402,STALE_DATA,N,Banner_ERP
+REC-95,Financial Aid,Personnel,aid_amount,RAW_7736,STD_1523,MISSING_VALUE,Y,Banner_ERP
+REC-96,Admissions,Financial,gpa,RAW_8990,STD_3876,MISSING_VALUE,Y,Jenzabar
+REC-97,Financial Aid,Student,gpa,RAW_6337,STD_3025,OUT_OF_RANGE,N,Jenzabar
+REC-98,Academic Records,Operational,enrollment_date,RAW_3531,STD_4384,STALE_DATA,Y,Legacy_DB
+REC-99,IT Systems,Financial,student_id,RAW_9829,STD_4982,STALE_DATA,Y,Banner_ERP
+REC-100,Financial Aid,Operational,email,RAW_9429,STD_1808,OUT_OF_RANGE,N,Legacy_DB
+REC-101,IT Systems,Operational,enrollment_date,RAW_4442,STD_6048,STALE_DATA,Y,Jenzabar
+REC-102,Academic Records,Financial,aid_amount,RAW_5475,STD_1596,DUPLICATE_RECORD,N,SharePoint
+REC-103,Academic Records,Financial,enrollment_date,RAW_4963,STD_6266,OUT_OF_RANGE,Y,Jenzabar
+REC-104,Admissions,Operational,student_id,RAW_4144,STD_3985,STALE_DATA,Y,Jenzabar
+REC-105,HR,Personnel,aid_amount,RAW_9203,STD_2361,DUPLICATE_RECORD,Y,Banner_ERP
+REC-106,IT Systems,Student,student_id,RAW_3465,STD_4918,INCONSISTENT_FORMAT,N,SharePoint
+REC-107,Academic Records,Student,gpa,RAW_7427,STD_5680,DUPLICATE_RECORD,N,Manual_Excel
+REC-108,Academic Records,Student,aid_amount,RAW_5983,STD_3292,STALE_DATA,N,Banner_ERP
+REC-109,IT Systems,Financial,gpa,RAW_2628,STD_6233,DUPLICATE_RECORD,Y,Manual_Excel
+REC-110,Financial Aid,Financial,email,RAW_5900,STD_6826,OUT_OF_RANGE,N,Manual_Excel
+REC-111,Admissions,Student,gpa,RAW_7291,STD_2533,STALE_DATA,Y,Jenzabar
+REC-112,Admissions,Student,student_id,RAW_7348,STD_7034,STALE_DATA,N,Legacy_DB
+REC-113,HR,Financial,department_code,RAW_2724,STD_7298,OUT_OF_RANGE,Y,Banner_ERP
+REC-114,Financial Aid,Student,aid_amount,RAW_4542,STD_6934,MISSING_VALUE,Y,Jenzabar
+REC-115,Admissions,Operational,email,RAW_3419,STD_7627,DUPLICATE_RECORD,Y,SharePoint
+REC-116,HR,Operational,email,RAW_5777,STD_2501,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-117,IT Systems,Student,student_id,RAW_4458,STD_5832,STALE_DATA,N,SharePoint
+REC-118,IT Systems,Operational,gpa,RAW_5758,STD_8215,DUPLICATE_RECORD,Y,Manual_Excel
+REC-119,Financial Aid,Personnel,student_id,RAW_8628,STD_8616,OUT_OF_RANGE,Y,SharePoint
+REC-120,Academic Records,Operational,student_id,RAW_9105,STD_1178,DUPLICATE_RECORD,N,SharePoint
+REC-121,Admissions,Financial,student_id,RAW_4388,STD_8359,INCONSISTENT_FORMAT,N,Banner_ERP
+REC-122,HR,Student,department_code,RAW_2417,STD_1513,DUPLICATE_RECORD,N,Manual_Excel
+REC-123,HR,Student,gpa,RAW_9044,STD_3965,OUT_OF_RANGE,N,SharePoint
+REC-124,HR,Operational,gpa,RAW_7395,STD_8122,OUT_OF_RANGE,Y,Banner_ERP
+REC-125,Admissions,Student,student_id,RAW_3046,STD_6332,OUT_OF_RANGE,Y,Jenzabar
+REC-126,Library,Operational,department_code,RAW_7177,STD_8161,DUPLICATE_RECORD,Y,Banner_ERP
+REC-127,Library,Personnel,email,RAW_1321,STD_5461,OUT_OF_RANGE,Y,Manual_Excel
+REC-128,Academic Records,Personnel,gpa,RAW_8172,STD_8128,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-129,Academic Records,Personnel,enrollment_date,RAW_1753,STD_8973,OUT_OF_RANGE,N,Legacy_DB
+REC-130,Financial Aid,Financial,aid_amount,RAW_3646,STD_6540,MISSING_VALUE,Y,Manual_Excel
+REC-131,Financial Aid,Operational,email,RAW_8472,STD_9927,MISSING_VALUE,Y,Banner_ERP
+REC-132,IT Systems,Personnel,gpa,RAW_6012,STD_7221,OUT_OF_RANGE,Y,Jenzabar
+REC-133,Admissions,Student,aid_amount,RAW_1707,STD_1961,STALE_DATA,Y,Legacy_DB
+REC-134,Admissions,Personnel,gpa,RAW_5969,STD_1624,STALE_DATA,Y,Banner_ERP
+REC-135,HR,Personnel,gpa,RAW_8844,STD_6262,DUPLICATE_RECORD,N,Jenzabar
+REC-136,Financial Aid,Student,gpa,RAW_8142,STD_8891,OUT_OF_RANGE,Y,Banner_ERP
+REC-137,Admissions,Operational,gpa,RAW_8727,STD_8147,MISSING_VALUE,Y,SharePoint
+REC-138,HR,Student,email,RAW_4312,STD_4921,MISSING_VALUE,Y,Legacy_DB
+REC-139,Library,Operational,department_code,RAW_5553,STD_6104,DUPLICATE_RECORD,N,Jenzabar
+REC-140,Admissions,Financial,email,RAW_6005,STD_4211,DUPLICATE_RECORD,N,Legacy_DB
+REC-141,Academic Records,Student,email,RAW_8281,STD_8041,OUT_OF_RANGE,Y,Jenzabar
+REC-142,Admissions,Student,gpa,RAW_7123,STD_6391,STALE_DATA,Y,Manual_Excel
+REC-143,HR,Financial,aid_amount,RAW_2727,STD_7610,DUPLICATE_RECORD,Y,Jenzabar
+REC-144,Academic Records,Operational,student_id,RAW_1259,STD_3806,OUT_OF_RANGE,N,Banner_ERP
+REC-145,Admissions,Operational,aid_amount,RAW_3210,STD_3975,OUT_OF_RANGE,N,SharePoint
+REC-146,Academic Records,Operational,email,RAW_3582,STD_9459,STALE_DATA,Y,Legacy_DB
+REC-147,Financial Aid,Student,enrollment_date,RAW_8089,STD_6311,OUT_OF_RANGE,Y,Manual_Excel
+REC-148,Financial Aid,Operational,department_code,RAW_8287,STD_7618,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-149,Academic Records,Personnel,gpa,RAW_3450,STD_7566,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-150,Academic Records,Student,enrollment_date,RAW_7198,STD_3383,DUPLICATE_RECORD,Y,Banner_ERP
+REC-151,HR,Student,email,RAW_8208,STD_2897,OUT_OF_RANGE,Y,Manual_Excel
+REC-152,IT Systems,Financial,email,RAW_4843,STD_6434,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-153,HR,Student,gpa,RAW_6275,STD_7212,DUPLICATE_RECORD,N,Manual_Excel
+REC-154,Academic Records,Personnel,student_id,RAW_8874,STD_1271,OUT_OF_RANGE,Y,Banner_ERP
+REC-155,Academic Records,Financial,email,RAW_8658,STD_2821,STALE_DATA,Y,SharePoint
+REC-156,HR,Financial,student_id,RAW_7057,STD_1828,MISSING_VALUE,N,SharePoint
+REC-157,Library,Student,enrollment_date,RAW_6503,STD_7782,OUT_OF_RANGE,N,Manual_Excel
+REC-158,Financial Aid,Student,department_code,RAW_2515,STD_8230,INCONSISTENT_FORMAT,N,Legacy_DB
+REC-159,Admissions,Student,enrollment_date,RAW_9001,STD_4472,STALE_DATA,Y,Banner_ERP
+REC-160,IT Systems,Personnel,gpa,RAW_2888,STD_1355,MISSING_VALUE,Y,Jenzabar
+REC-161,Library,Student,email,RAW_7991,STD_6635,STALE_DATA,N,Manual_Excel
+REC-162,Financial Aid,Operational,gpa,RAW_8306,STD_1272,STALE_DATA,Y,SharePoint
+REC-163,Library,Financial,email,RAW_2797,STD_8611,OUT_OF_RANGE,Y,Banner_ERP
+REC-164,Library,Personnel,enrollment_date,RAW_5128,STD_7259,DUPLICATE_RECORD,Y,Legacy_DB
+REC-165,Library,Operational,aid_amount,RAW_4840,STD_5978,MISSING_VALUE,Y,Legacy_DB
+REC-166,HR,Operational,enrollment_date,RAW_5568,STD_4703,INCONSISTENT_FORMAT,Y,SharePoint
+REC-167,Admissions,Personnel,enrollment_date,RAW_7723,STD_3261,STALE_DATA,Y,Manual_Excel
+REC-168,HR,Operational,aid_amount,RAW_4179,STD_8954,MISSING_VALUE,N,Jenzabar
+REC-169,IT Systems,Student,gpa,RAW_1771,STD_6308,DUPLICATE_RECORD,N,SharePoint
+REC-170,Library,Personnel,department_code,RAW_8397,STD_5886,MISSING_VALUE,Y,SharePoint
+REC-171,HR,Personnel,enrollment_date,RAW_4618,STD_5633,STALE_DATA,N,Manual_Excel
+REC-172,Financial Aid,Financial,department_code,RAW_3240,STD_3526,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-173,Financial Aid,Financial,enrollment_date,RAW_9074,STD_1858,STALE_DATA,Y,Manual_Excel
+REC-174,HR,Student,aid_amount,RAW_8291,STD_1662,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-175,Financial Aid,Personnel,aid_amount,RAW_8029,STD_3495,STALE_DATA,N,Legacy_DB
+REC-176,Academic Records,Student,gpa,RAW_4661,STD_7943,STALE_DATA,Y,Legacy_DB
+REC-177,Admissions,Student,aid_amount,RAW_8289,STD_7785,MISSING_VALUE,Y,SharePoint
+REC-178,Academic Records,Student,aid_amount,RAW_1257,STD_5697,INCONSISTENT_FORMAT,Y,SharePoint
+REC-179,IT Systems,Financial,aid_amount,RAW_5376,STD_3126,OUT_OF_RANGE,Y,SharePoint
+REC-180,IT Systems,Personnel,student_id,RAW_8574,STD_3220,DUPLICATE_RECORD,Y,Banner_ERP
+REC-181,Financial Aid,Personnel,enrollment_date,RAW_4108,STD_9129,OUT_OF_RANGE,Y,Legacy_DB
+REC-182,Library,Operational,student_id,RAW_7238,STD_5543,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-183,IT Systems,Personnel,gpa,RAW_8063,STD_2394,OUT_OF_RANGE,Y,Jenzabar
+REC-184,Academic Records,Operational,aid_amount,RAW_4799,STD_1551,INCONSISTENT_FORMAT,N,Jenzabar
+REC-185,Library,Student,email,RAW_1038,STD_6412,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-186,Library,Operational,aid_amount,RAW_3811,STD_8350,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-187,Library,Student,department_code,RAW_6742,STD_4897,MISSING_VALUE,N,Manual_Excel
+REC-188,IT Systems,Student,enrollment_date,RAW_1732,STD_7715,MISSING_VALUE,Y,Legacy_DB
+REC-189,Admissions,Operational,gpa,RAW_8162,STD_2150,STALE_DATA,Y,Manual_Excel
+REC-190,Library,Operational,email,RAW_3363,STD_9618,DUPLICATE_RECORD,N,SharePoint
+REC-191,Library,Financial,department_code,RAW_1189,STD_6674,DUPLICATE_RECORD,Y,Jenzabar
+REC-192,IT Systems,Operational,aid_amount,RAW_6254,STD_2127,STALE_DATA,N,SharePoint
+REC-193,IT Systems,Financial,department_code,RAW_6664,STD_1601,STALE_DATA,N,SharePoint
+REC-194,Admissions,Financial,student_id,RAW_6362,STD_1725,STALE_DATA,Y,Jenzabar
+REC-195,HR,Operational,email,RAW_3173,STD_4464,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-196,Library,Student,aid_amount,RAW_7580,STD_4153,INCONSISTENT_FORMAT,N,Jenzabar
+REC-197,Financial Aid,Student,email,RAW_1210,STD_6873,OUT_OF_RANGE,Y,SharePoint
+REC-198,Academic Records,Operational,student_id,RAW_1901,STD_7807,INCONSISTENT_FORMAT,Y,SharePoint
+REC-199,HR,Student,student_id,RAW_1873,STD_2333,MISSING_VALUE,Y,Legacy_DB
+REC-200,Financial Aid,Financial,gpa,RAW_1684,STD_9743,OUT_OF_RANGE,Y,Legacy_DB
+REC-201,Financial Aid,Operational,enrollment_date,RAW_8318,STD_9584,OUT_OF_RANGE,Y,Manual_Excel
+REC-202,Library,Personnel,department_code,RAW_3595,STD_3045,OUT_OF_RANGE,Y,Legacy_DB
+REC-203,IT Systems,Operational,enrollment_date,RAW_8759,STD_3778,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-204,Academic Records,Financial,enrollment_date,RAW_4750,STD_6567,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-205,IT Systems,Personnel,gpa,RAW_7691,STD_3380,STALE_DATA,Y,SharePoint
+REC-206,IT Systems,Financial,gpa,RAW_1060,STD_9957,DUPLICATE_RECORD,Y,Jenzabar
+REC-207,Academic Records,Personnel,email,RAW_4609,STD_3106,DUPLICATE_RECORD,N,SharePoint
+REC-208,Library,Financial,enrollment_date,RAW_6696,STD_3322,STALE_DATA,N,Banner_ERP
+REC-209,HR,Personnel,email,RAW_8692,STD_3344,OUT_OF_RANGE,Y,Manual_Excel
+REC-210,IT Systems,Financial,gpa,RAW_3108,STD_1138,INCONSISTENT_FORMAT,N,SharePoint
+REC-211,Academic Records,Operational,enrollment_date,RAW_7193,STD_8673,STALE_DATA,Y,Legacy_DB
+REC-212,Financial Aid,Student,gpa,RAW_4356,STD_4705,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-213,Admissions,Personnel,gpa,RAW_7733,STD_1956,DUPLICATE_RECORD,Y,Manual_Excel
+REC-214,Library,Personnel,enrollment_date,RAW_6710,STD_9468,MISSING_VALUE,Y,Legacy_DB
+REC-215,Financial Aid,Financial,email,RAW_6786,STD_5524,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-216,Financial Aid,Personnel,department_code,RAW_6230,STD_5306,STALE_DATA,Y,Jenzabar
+REC-217,Admissions,Financial,gpa,RAW_8912,STD_5582,STALE_DATA,Y,Banner_ERP
+REC-218,Library,Student,department_code,RAW_4167,STD_3786,OUT_OF_RANGE,N,SharePoint
+REC-219,Academic Records,Financial,email,RAW_9650,STD_3753,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-220,HR,Operational,email,RAW_7538,STD_8293,OUT_OF_RANGE,Y,Jenzabar
+REC-221,Academic Records,Operational,gpa,RAW_6845,STD_4894,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-222,Library,Operational,email,RAW_6983,STD_1934,DUPLICATE_RECORD,Y,Banner_ERP
+REC-223,Financial Aid,Operational,aid_amount,RAW_9136,STD_2476,MISSING_VALUE,N,SharePoint
+REC-224,Academic Records,Operational,gpa,RAW_4952,STD_5756,MISSING_VALUE,N,Jenzabar
+REC-225,Library,Operational,gpa,RAW_2788,STD_4674,INCONSISTENT_FORMAT,N,Legacy_DB
+REC-226,IT Systems,Operational,department_code,RAW_5332,STD_4701,INCONSISTENT_FORMAT,N,Jenzabar
+REC-227,IT Systems,Financial,student_id,RAW_4275,STD_4522,OUT_OF_RANGE,Y,Banner_ERP
+REC-228,HR,Financial,student_id,RAW_3818,STD_1622,OUT_OF_RANGE,Y,Jenzabar
+REC-229,Admissions,Student,enrollment_date,RAW_8615,STD_6916,DUPLICATE_RECORD,Y,Jenzabar
+REC-230,Library,Student,enrollment_date,RAW_1449,STD_3968,MISSING_VALUE,Y,Banner_ERP
+REC-231,IT Systems,Student,enrollment_date,RAW_5625,STD_4678,OUT_OF_RANGE,N,Legacy_DB
+REC-232,Academic Records,Operational,aid_amount,RAW_4318,STD_2711,MISSING_VALUE,N,SharePoint
+REC-233,Academic Records,Operational,student_id,RAW_8832,STD_7697,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-234,HR,Student,student_id,RAW_9523,STD_7440,MISSING_VALUE,Y,SharePoint
+REC-235,Financial Aid,Student,department_code,RAW_1128,STD_5603,INCONSISTENT_FORMAT,N,Manual_Excel
+REC-236,IT Systems,Financial,gpa,RAW_7845,STD_3554,MISSING_VALUE,Y,Jenzabar
+REC-237,Financial Aid,Personnel,enrollment_date,RAW_7195,STD_7010,OUT_OF_RANGE,Y,Jenzabar
+REC-238,Academic Records,Financial,gpa,RAW_5382,STD_2254,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-239,Financial Aid,Financial,department_code,RAW_6283,STD_4828,STALE_DATA,N,Legacy_DB
+REC-240,Admissions,Operational,student_id,RAW_4726,STD_1149,MISSING_VALUE,N,Legacy_DB
+REC-241,Academic Records,Personnel,student_id,RAW_7362,STD_1983,STALE_DATA,N,Banner_ERP
+REC-242,Admissions,Personnel,email,RAW_6442,STD_1608,STALE_DATA,Y,SharePoint
+REC-243,Library,Operational,enrollment_date,RAW_8196,STD_3326,OUT_OF_RANGE,Y,Banner_ERP
+REC-244,Admissions,Student,department_code,RAW_8637,STD_2850,STALE_DATA,N,Jenzabar
+REC-245,Financial Aid,Financial,gpa,RAW_3425,STD_2422,OUT_OF_RANGE,N,Legacy_DB
+REC-246,Admissions,Financial,gpa,RAW_1958,STD_9685,STALE_DATA,N,Banner_ERP
+REC-247,Academic Records,Personnel,enrollment_date,RAW_4170,STD_6133,OUT_OF_RANGE,Y,Manual_Excel
+REC-248,Financial Aid,Financial,enrollment_date,RAW_8333,STD_3479,MISSING_VALUE,Y,Banner_ERP
+REC-249,IT Systems,Student,email,RAW_4238,STD_4943,INCONSISTENT_FORMAT,N,Banner_ERP
+REC-250,Financial Aid,Financial,gpa,RAW_3969,STD_5161,STALE_DATA,Y,Banner_ERP
+REC-251,HR,Student,department_code,RAW_4273,STD_9625,DUPLICATE_RECORD,Y,Legacy_DB
+REC-252,Library,Operational,student_id,RAW_1145,STD_9523,DUPLICATE_RECORD,Y,Jenzabar
+REC-253,HR,Personnel,email,RAW_6672,STD_5004,INCONSISTENT_FORMAT,N,Legacy_DB
+REC-254,HR,Student,aid_amount,RAW_6008,STD_6077,OUT_OF_RANGE,N,Manual_Excel
+REC-255,Library,Personnel,student_id,RAW_5387,STD_7168,MISSING_VALUE,Y,SharePoint
+REC-256,Financial Aid,Student,department_code,RAW_4795,STD_6776,STALE_DATA,Y,SharePoint
+REC-257,Admissions,Student,enrollment_date,RAW_8641,STD_9687,MISSING_VALUE,Y,Manual_Excel
+REC-258,Financial Aid,Student,department_code,RAW_1840,STD_1234,STALE_DATA,N,Jenzabar
+REC-259,Academic Records,Financial,student_id,RAW_2326,STD_4531,DUPLICATE_RECORD,N,Manual_Excel
+REC-260,HR,Personnel,aid_amount,RAW_1991,STD_1273,DUPLICATE_RECORD,N,Banner_ERP
+REC-261,Academic Records,Financial,enrollment_date,RAW_2194,STD_5416,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-262,IT Systems,Operational,aid_amount,RAW_3616,STD_7151,STALE_DATA,Y,Manual_Excel
+REC-263,HR,Personnel,gpa,RAW_1742,STD_9214,INCONSISTENT_FORMAT,N,Banner_ERP
+REC-264,Library,Personnel,student_id,RAW_1962,STD_2006,MISSING_VALUE,Y,Manual_Excel
+REC-265,Financial Aid,Operational,aid_amount,RAW_3976,STD_8088,OUT_OF_RANGE,Y,Legacy_DB
+REC-266,HR,Financial,department_code,RAW_5538,STD_7498,MISSING_VALUE,N,Jenzabar
+REC-267,Library,Personnel,enrollment_date,RAW_8318,STD_7945,INCONSISTENT_FORMAT,N,Manual_Excel
+REC-268,IT Systems,Financial,aid_amount,RAW_4495,STD_6762,MISSING_VALUE,N,Manual_Excel
+REC-269,IT Systems,Financial,email,RAW_6014,STD_2981,STALE_DATA,N,Jenzabar
+REC-270,Admissions,Operational,gpa,RAW_9049,STD_8583,INCONSISTENT_FORMAT,N,SharePoint
+REC-271,Financial Aid,Student,enrollment_date,RAW_2306,STD_2118,STALE_DATA,N,Manual_Excel
+REC-272,IT Systems,Operational,aid_amount,RAW_5295,STD_8505,DUPLICATE_RECORD,Y,Jenzabar
+REC-273,Library,Financial,gpa,RAW_2622,STD_8246,INCONSISTENT_FORMAT,Y,Manual_Excel
+REC-274,HR,Personnel,enrollment_date,RAW_3353,STD_5270,STALE_DATA,Y,Legacy_DB
+REC-275,Admissions,Financial,student_id,RAW_3449,STD_8544,INCONSISTENT_FORMAT,N,Banner_ERP
+REC-276,Financial Aid,Financial,gpa,RAW_8293,STD_6386,OUT_OF_RANGE,N,Manual_Excel
+REC-277,Library,Financial,student_id,RAW_1553,STD_1753,DUPLICATE_RECORD,Y,Jenzabar
+REC-278,Financial Aid,Personnel,email,RAW_2485,STD_7952,OUT_OF_RANGE,N,SharePoint
+REC-279,IT Systems,Financial,aid_amount,RAW_3570,STD_2485,STALE_DATA,N,SharePoint
+REC-280,IT Systems,Financial,enrollment_date,RAW_3244,STD_7441,MISSING_VALUE,N,Banner_ERP
+REC-281,Financial Aid,Student,aid_amount,RAW_4305,STD_8070,INCONSISTENT_FORMAT,Y,Jenzabar
+REC-282,Library,Student,email,RAW_9281,STD_6756,DUPLICATE_RECORD,N,Banner_ERP
+REC-283,Library,Operational,student_id,RAW_6854,STD_9358,STALE_DATA,N,Banner_ERP
+REC-284,Financial Aid,Student,gpa,RAW_9466,STD_7823,DUPLICATE_RECORD,Y,Banner_ERP
+REC-285,Financial Aid,Operational,enrollment_date,RAW_5433,STD_7728,OUT_OF_RANGE,Y,Banner_ERP
+REC-286,IT Systems,Personnel,student_id,RAW_6290,STD_4263,STALE_DATA,Y,Legacy_DB
+REC-287,Financial Aid,Financial,email,RAW_3357,STD_9498,DUPLICATE_RECORD,Y,SharePoint
+REC-288,IT Systems,Financial,gpa,RAW_3147,STD_6107,MISSING_VALUE,Y,Legacy_DB
+REC-289,Library,Financial,email,RAW_7248,STD_6576,MISSING_VALUE,N,Manual_Excel
+REC-290,Academic Records,Personnel,department_code,RAW_6140,STD_8187,INCONSISTENT_FORMAT,Y,Banner_ERP
+REC-291,Academic Records,Personnel,gpa,RAW_5939,STD_5057,DUPLICATE_RECORD,Y,Legacy_DB
+REC-292,Financial Aid,Operational,aid_amount,RAW_4663,STD_8653,INCONSISTENT_FORMAT,Y,Legacy_DB
+REC-293,Admissions,Student,student_id,RAW_5483,STD_2354,MISSING_VALUE,N,Banner_ERP
+REC-294,IT Systems,Operational,department_code,RAW_8938,STD_4970,OUT_OF_RANGE,N,Manual_Excel
+REC-295,IT Systems,Student,aid_amount,RAW_4661,STD_6266,OUT_OF_RANGE,N,Manual_Excel
+REC-296,HR,Operational,enrollment_date,RAW_2104,STD_9422,DUPLICATE_RECORD,N,Manual_Excel
+REC-297,HR,Student,aid_amount,RAW_9134,STD_1833,MISSING_VALUE,N,Banner_ERP
+REC-298,IT Systems,Student,enrollment_date,RAW_1055,STD_2405,MISSING_VALUE,N,Legacy_DB
+REC-299,Admissions,Financial,gpa,RAW_2536,STD_4696,DUPLICATE_RECORD,Y,Jenzabar
+REC-300,Academic Records,Operational,gpa,RAW_3971,STD_6565,INCONSISTENT_FORMAT,Y,Jenzabar
