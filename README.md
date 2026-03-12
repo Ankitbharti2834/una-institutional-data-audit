@@ -40,7 +40,7 @@ SharePoint ─┘    Deduplication     Reconciliation Summary
 |---|---|
 | Data accuracy improvement | **50%** |
 | Departments standardised | **3+** |
-| Source systems integrated | 5 (Excel, Legacy DB, SharePoint) |
+| Source systems integrated | 3 (Excel, Legacy DB, SharePoint) |
 | Reporting compliance enforced | ✅ |
 
 ## Repository Contents
