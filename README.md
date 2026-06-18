@@ -69,4 +69,4 @@ python python/institutional_audit.py
 Python (Pandas, NumPy) · ETL Pipelines · Advanced Excel · SQL
 
 ---
-*For technical discussion, connect via [LinkedIn](https://linkedin.com/in/ankitbharti2834).*
+*For technical discussion, connect via [LinkedIn](https://linkedin.com/in/a-bharti/).*
